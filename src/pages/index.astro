@@ -1,0 +1,11 @@
+---
+import Layout from '../components/Layout.astro';
+import Nav from '../components/Nav'
+---
+
+<Layout title="Welcome to Astro.">
+	<div class="bg-gray-400 flex items-center justify-center">
+		<Nav client:load/>
+	</div>
+</Layout>
+
